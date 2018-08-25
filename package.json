@@ -1,0 +1,22 @@
+{
+  "name": "cloud-object-storage-url-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tresende/cloud-object-storage-url-gen.git"
+  },
+  "dependencies": {
+    "ibm-cos-sdk": "^1.2.3"
+  },
+  "author": "Thiago Resende",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tresende/cloud-object-storage-url-gen/issues"
+  },
+  "homepage": "https://github.com/tresende/cloud-object-storage-url-gen#readme"
+}
