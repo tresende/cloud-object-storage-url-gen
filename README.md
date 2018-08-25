@@ -1,2 +1,3 @@
-# cloud-object-storage-url-gen
+# Cloud Object Storage
+## Generate Public URL
 Generate ibm cloud object storage public url.
