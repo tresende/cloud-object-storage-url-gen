@@ -15,7 +15,7 @@
     "ibm-cos-sdk": "^1.2.3"
   },
   "author": "Thiago Resende",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tresende/cloud-object-storage-url-gen/issues"
   },
