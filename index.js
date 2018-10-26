@@ -1,15 +1,15 @@
-const AWS = require('ibm-cos-sdk');
+const IBM = require('ibm-cos-sdk');
 
 const bucket = 'xxx';
-const ep = new AWS.Endpoint('xxx');
-const cred = new AWS.Credentials('xxx', 'xxx');
+const ep = new IBM.Endpoint('xxx');
+const cred = new IBM.Credentials('xxx', 'xxx');
 const config = {
     endpoint: ep,
     credentials: cred,
     signatureVersion: 'v4',
 };
 
-const s3 = new AWS.S3(config);
+const s3 = new IBM.S3(config);
 const params = { Bucket: bucket };
 
 const getLinkFile = (fileName) => {
